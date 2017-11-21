@@ -15,7 +15,7 @@ var FBLoginManager = require('NativeModules').FBLoginManager;
 
 var FBLoginMock = React.createClass({
   propTypes: {
-    style: View.propTypes.style,
+    style: ReactNative.ViewStylePropTypes || View.propTypes.style,
     onPress: PropTypes.func,
     onLogin: PropTypes.func,
     onLogout: PropTypes.func,
