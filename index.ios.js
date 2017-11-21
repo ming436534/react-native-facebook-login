@@ -8,7 +8,7 @@ import {
   NativeMethodsMixin,
   DeviceEventEmitter,
   requireNativeComponent,
-  ViewStylePropTypes
+  ViewPropTypes
 } from 'react-native';
 
 const FBLoginManager = NativeModules.MFBLoginManager;
